@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navbar {
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 0px #121212;
+    border-radius: 15px;
+}
+
+.btn-primary {
+
+}
+
+.tagline-chip {
+    @apply bg-orange-100 text-orange-700 py-2 px-3 rounded-lg;
+}
+
+.hero-title-large {
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
