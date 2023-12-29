@@ -10,11 +10,15 @@
 }
 
 .btn-primary {
+    @apply rounded-2xl text-sm relative -translate-x-[2px] -translate-y-[2px] block w-max;
+}
 
+.btn-primary-rect {
+    @apply w-full h-full bg-foreground absolute top-1 left-1 -z-10 rounded-2xl;
 }
 
 .tagline-chip {
-    @apply bg-orange-100 text-orange-700 py-2 px-3 rounded-lg;
+    @apply bg-backgroundLight text-foregroundPrimary py-2 px-3 rounded-lg;
 }
 
 .hero-title-large {

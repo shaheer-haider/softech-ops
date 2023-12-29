@@ -32,7 +32,7 @@ const heroSectionData = {
       {
         text: "Comprehensive Services",
         type: "text",
-        class: "text-orange-700",
+        class: "text-foregroundPrimary",
       },
     ],
   },

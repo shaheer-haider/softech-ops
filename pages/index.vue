@@ -22,7 +22,7 @@ const heroSectionData = {
       {
         text: "Reality",
         type: "text",
-        class: "text-orange-700",
+        class: "text-foregroundPrimary",
       },
       {
         text: "",
@@ -37,7 +37,7 @@ const heroSectionData = {
       {
         text: "Launch",
         type: "text",
-        class: "text-orange-700",
+        class: "text-foregroundPrimary",
       },
     ],
   },

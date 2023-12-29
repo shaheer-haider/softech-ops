@@ -27,7 +27,7 @@
             <li v-for="(navLink, index) in navLinks" :key="index">
               <NuxtLink
                 :to="navLink.path"
-                class="block py-2 pl-3 pr-4 text-paraColor rounded md:hover:bg-transparent md:hover:text-primary md:p-0"
+                class="block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:hover:text-primary md:p-0"
                 >{{ navLink.name }}</NuxtLink
               >
             </li>
