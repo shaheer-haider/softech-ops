@@ -1,13 +1,13 @@
 <template>
   <nav class="fixed w-full z-50 top-0 left-0 p-4">
-    <div class="max-w-screen-xl mx-auto px-4 md:px-0">
-      <div class="flex flex-wrap items-center justify-between mx-auto px-6 py-3 navbar">
+    <div class="max-w-screen-xl mx-auto px-2 sm:px-4 md:px-0">
+      <div class="flex flex-wrap items-center justify-between mx-auto px-4 sm:px-6 py-3 navbar bg-background">
         <NuxtLink to="/" class="flex items-center">
-          <img src="@/assets/images/branding.svg" :alt="siteName + ' Logo'" />
+          <img class="w-40 sm:w-auto" src="@/assets/images/branding.svg" :alt="siteName + ' Logo'" />
         </NuxtLink>
         <div class="flex md:order-2">
-          <ButtonPrimary class="hidden md:block" />
-          <a class="hidden md:block" />
+          <ButtonPrimary class="!hidden md:!block" />
+          <!-- <a class="hidden md:block" /> -->
           <button
             @click="showMobileDrawer = !showMobileDrawer"
             type="button"
@@ -31,8 +31,8 @@
                 >{{ navLink.name }}</NuxtLink
               >
             </li>
-            <li class="pl-4 block md:hidden">
-                <ButtonPrimary />
+            <li class="pt-4 block md:hidden">
+              <ButtonPrimary :disableShadow="true" />
             </li>
           </ul>
         </div>

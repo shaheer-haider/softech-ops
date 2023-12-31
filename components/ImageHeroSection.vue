@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between w-full">
+  <div class="flex justify-between w-full max-w-screen-xl mx-auto">
     <div class="space-y-9 pt-3 max-w-xl">
       <span class="tagline-chip">{{ props.tagline }}</span>
       <DynamicText

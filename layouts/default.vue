@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col justify-between min-h-screen">
-    <div class="relative max-w-screen-xl mx-auto w-full">
+    <div class="relative w-full">
       <Header />
-      <NuxtPage class="mt-36 w-full mx-auto" />
+      <NuxtPage class="mt-24 sm:mt-32 md:mt-36 w-full mx-auto" />
     </div>
     <!-- <Footer /> -->
   </div>

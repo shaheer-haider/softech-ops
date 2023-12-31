@@ -12,6 +12,7 @@ export default {
         foregroundPrimary: "#0D99FD",
         foregroundPrimaryHover: "#007DD7",
         lightText: "#676A6F",
+        lightBg: "#EFF0F4",
       }
     },
   },

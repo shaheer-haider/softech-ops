@@ -4,9 +4,12 @@
 
 
 .navbar {
-    border: 1px solid #000000;
-    box-shadow: 4px 4px 0px #121212;
-    border-radius: 15px;
+    @apply static-shadow-border;
+}
+
+.static-shadow-border {
+    @apply border border-foreground shadow-[4px_4px_0px] shadow-foreground rounded-2xl;
+
 }
 
 .btn-primary {
@@ -19,6 +22,10 @@
 
 .tagline-chip {
     @apply bg-backgroundLight text-foregroundPrimary py-2 px-3 rounded-lg;
+}
+
+.tagline-chip-none {
+    @apply bg-none py-0 px-0;
 }
 
 .hero-title-large {

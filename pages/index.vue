@@ -1,10 +1,14 @@
 <template>
   <div>
     <CenteredHeroSection
+      class="mb-16"
       :tagline="heroSectionData.tagline"
       :title="heroSectionData.title"
       :punchline="heroSectionData.punchline"
     />
+    <ServicesCrossSlider />
+
+    <ServicesSliderSection />
   </div>
 </template>
 
@@ -46,21 +50,21 @@ const heroSectionData = {
     contentArray: [
       {
         text:
-          "A team of experts who create full-spectrum solutions to help your businesses get started and grow",
+          "A team of experts who create full-spectrum solutions to help your businesses get started and grow. We provide excellence to solopreneurs, startups & established businesses with ideas",
         type: "text",
         class: "",
       },
-      {
-        text: "",
-        type: "breakpoint",
-        class: "",
-      },
-      {
-        text:
-          "We provide excellence to solopreneurs, startups & established businesses with ideas",
-        type: "text",
-        class: "",
-      },
+      // {
+      //   text: "",
+      //   type: "breakpoint",
+      //   class: "",
+      // },
+      // {
+      //   text:
+      //     "We provide excellence to solopreneurs, startups & established businesses with ideas",
+      //   type: "text",
+      //   class: "",
+      // },
     ],
   },
 };
