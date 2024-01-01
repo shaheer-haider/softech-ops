@@ -5,6 +5,10 @@
       :title="heroSectionData.title"
       :punchline="heroSectionData.punchline"
     />
+    <HomeServicesCrossSlider />
+    <ServicesGridSection />
+    <ServicesBusinessProcessSection />
+
   </div>
 </template>
 

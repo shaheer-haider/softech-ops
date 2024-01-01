@@ -6,9 +6,13 @@
       :title="heroSectionData.title"
       :punchline="heroSectionData.punchline"
     />
-    <ServicesCrossSlider />
+    <HomeServicesCrossSlider />
 
-    <ServicesSliderSection />
+    <HomeServicesSliderSection />
+
+    <HomeSuccessfulProjectsSection />
+    <HomeTestimonialSection />
+
   </div>
 </template>
 

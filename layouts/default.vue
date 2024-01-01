@@ -4,7 +4,8 @@
       <Header />
       <NuxtPage class="mt-24 sm:mt-32 md:mt-36 w-full mx-auto" />
     </div>
-    <!-- <Footer /> -->
+    <PreFooter />
+    <Footer />
   </div>
 </template>
 

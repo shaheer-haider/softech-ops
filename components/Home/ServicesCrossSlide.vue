@@ -20,10 +20,11 @@
 
 <style>
 .animated-slider-content-backward {
-  animation: slideAnimationBackward 15s linear infinite;
+  animation: slideAnimationBackward 25s linear infinite;
 }
+
 .animated-slider-content-forward {
-  animation: slideAnimationForward 15s linear infinite;
+  animation: slideAnimationForward 25s linear infinite;
 }
 
 @keyframes slideAnimationForward {
