@@ -6,11 +6,20 @@
       :class="disableShadow ? '' : 'focus:translate-x-1 focus:translate-y-1'"
       href="#"
     >
-      Schedule a call
+      {{ buttonText }}
     </a>
   </div>
 </template>
 
 <script setup>
-defineProps(["disableShadow"]);
+const props = defineProps({
+  buttonText: {
+    type: String,
+    default: "Schedule a call",
+  },
+  disableShadow: {
+    type: Boolean,
+    default: false,
+  },
+});
 </script>
