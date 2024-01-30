@@ -1,16 +1,30 @@
 <template>
   <div class="relative">
-    <div class="max-w-7xl mx-auto py-16 flex items-center">
-      <div class="max-w-[500px] space-y-3">
+    <div class="max-w-7xl mx-auto pb-10 flex items-center lg:flex-row flex-col gap-12 px-5 pt-6">
+      <div class="lg:max-w-[500px] w-full space-y-3">
         <h1 class="text-6xl font-semibold">Contacts</h1>
         <h4 class="text-2xl text-foregroundPrimary">Get in Touch</h4>
         <p class="text-lightText text-lg">
           Feel free to contact us any time. We will get back to you as soon as
           we can!
         </p>
+        <div class="space-y-4 text-sm pt-16">
+          <div class="flex items-center gap-3">
+            <Icon name="ic:sharp-location-on" />
+            <p>itelligy – dal igitexpertsEtzmattenstr. 4079112</p>
+          </div>
+          <div class="flex items-center gap-3">
+            <Icon name="f7:envelope-fill" />
+            <p>FreiburgGermanyhello@itelligy.com</p>
+          </div>
+          <div class="flex items-center gap-3">
+            <Icon name="ic:round-phone" />
+            <p>+49 7664-4069752</p>
+          </div>
+        </div>
       </div>
-      <div class="flex-1">
-        <form class="max-w-xl ml-auto p-7 static-shadow-border space-y-4">
+      <div class="lg:flex-1 w-full">
+        <form class="md:max-w-xl w-full lg:ml-auto p-7 static-shadow-border space-y-4">
           <div
             class="flex flex-col gap-2"
             v-for="(input, index) in inputData"
