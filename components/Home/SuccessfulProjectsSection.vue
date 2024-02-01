@@ -8,16 +8,26 @@
         <a class="text-2xl underline" href="/projects">See All</a>
       </div>
       <div class="grid grid-cols-2 gap-10 mt-14">
-        <div v-for="x in 4">
-          <img src="@/assets/images/dummy-project-image.png" alt="project image" />
+        <div v-for="(project, index) in projects" :key="index">
+          <img :src="project.image" alt="project image" />
           <div class="pt-5 flex justify-between">
-            <p class="font-semibold text-2xl">Noyas Platform</p>
-            <button class="bg-background text-foreground px-3 py-2 rounded-full">
-              View Project
-            </button>
+            <p class="font-semibold text-xl">{{ project.title }}</p>
+            <div class="flex gap-2 flex-wrap">
+              <button
+                v-for="(category, index) in project.categories"
+                :key="index"
+                class="bg-background text-foreground text-xs px-3 py-2 rounded-full"
+              >
+                {{ category }}
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<script setup>
+import projects from "@/assets/data/projects.json";
+</script>
