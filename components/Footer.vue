@@ -18,9 +18,12 @@
     </div>
 
     <div class="flex flex-wrap max-w-screen-2xl m-auto px-2 gap-6 border-b pb-5">
-      <NuxtLink v-for="service in services">{{
-        service.name
-      }}</NuxtLink>
+      <NuxtLink class="uppercase" to="/terms-and-conditions">
+        Terms and Conditions
+      </NuxtLink>
+      <NuxtLink class="uppercase" to="/privacy-policy">
+        privacy policy
+      </NuxtLink>
     </div>
     <div class="flex justify-between max-w-screen-2xl m-auto px-2 gap-5 mt-5 pt-4 pb-6">
       <div class="flex items-center gap-x-2">
