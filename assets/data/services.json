@@ -1,29 +1,29 @@
 [
-    {
-        "name": "Cloud and DevOps"
-    },
-    {
-        "name": "Cloud Computing"
-    },
-    {
-        "name": "Frontend development"
-    },
-    {
-        "name": "UI/UX Design"
-    },
-    {
-        "name": "Backend Services"
-    },
-    {
-        "name": "Mobile Apps"
-    },
-    {
-        "name": "Digital Marketing"
-    },
-    {
-        "name": "Product Management"
-    },
-    {
-        "name": "Business Branding"
-    }
+  {
+    "name": "Cloud and DevOps"
+  },
+  {
+    "name": "Cloud Computing"
+  },
+  {
+    "name": "Frontend development"
+  },
+  {
+    "name": "UI/UX Design"
+  },
+  {
+    "name": "Backend Services"
+  },
+  {
+    "name": "Mobile Apps"
+  },
+  {
+    "name": "Digital Marketing"
+  },
+  {
+    "name": "Product Management"
+  },
+  {
+    "name": "Business Branding"
+  }
 ]

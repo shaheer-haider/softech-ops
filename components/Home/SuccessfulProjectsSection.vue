@@ -1,13 +1,13 @@
 <template>
-  <div class="bg-foreground text-background py-20">
-    <div class="max-w-[1200px] m-auto">
-      <div class="flex justify-between items-end">
-        <h2 class="text-5xl font-medium max-w-2xl leading-snug">
+  <div class="bg-foreground text-background md:py-20 py-10">
+    <div class="max-w-[1200px] m-auto px-5">
+      <div class="flex justify-between flex-wrap gap-4 items-end">
+        <h2 class="md:text-5xl text-3xl font-medium max-w-2xl leading-snug">
           Take a look at our most successful projects
         </h2>
-        <a class="text-2xl underline" href="/projects">See All</a>
+        <a class="md:text-2xl text-lg underline" href="/projects">See All</a>
       </div>
-      <div class="grid grid-cols-2 gap-10 mt-14">
+      <div class="grid md:grid-cols-2 gap-10 mt-14">
         <div v-for="(project, index) in projects" :key="index">
           <img :src="project.image" alt="project image" />
           <div class="pt-5 flex justify-between">
@@ -16,7 +16,7 @@
               <button
                 v-for="(category, index) in project.categories"
                 :key="index"
-                class="bg-background text-foreground text-xs px-3 py-2 rounded-full"
+                class="bg-background text-foreground md:text-xs text-[8px] md:px-3 px-1 md:py-2 rounded-full"
               >
                 {{ category }}
               </button>

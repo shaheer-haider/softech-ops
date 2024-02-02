@@ -1,5 +1,5 @@
 <template>
-  <div class="static-shadow-border w-72 h-full rounded-2xl px-4 py-6 space-y-4">
+  <div class="static-shadow-border sm:w-68 h-full rounded-2xl px-4 py-6 space-y-4">
     <div class="flex gap-3 items-end">
       <img
         class="w-9 h-9"
