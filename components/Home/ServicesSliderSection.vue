@@ -5,22 +5,25 @@
       <span class="text-foregroundPrimary">Comprehensive Services</span>
     </h2>
 
-    <div class="py-20 relative">
+    <div class="relative pb-10">
       <Swiper
-        :modules="[SwiperAutoplay]"
+        :modules="[SwiperAutoplay, SwiperPagination]"
+        :pagination="{
+          clickable: true,
+        }"
         :slides-per-view="5"
         :autoplay="{
           delay: 3000,
         }"
       >
-        <SwiperSlide class="p-1">
+        <SwiperSlide class="p-1 pt-20 pb-16">
           <div
             class="bg-foreground w-56 min-h-[290px] flex justify-end items-end rounded-2xl"
           >
             <img class="" src="@/assets/images/service-card-star.svg" />
           </div>
         </SwiperSlide>
-        <SwiperSlide v-for="(service, index) in services" :key="index" class="p-1">
+        <SwiperSlide v-for="(service, index) in services" :key="index" class="p-1 pt-20 pb-16">
           <div
             class="bg-lightBg w-56 min-h-[290px] static-shadow-border px-5 py-7 flex flex-col justify-between"
           >

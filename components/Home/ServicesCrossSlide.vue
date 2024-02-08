@@ -1,5 +1,5 @@
 <template>
-  <div class="h-[50px] sm:h-[60px] md:h-[70px] w-[110%] absolute top-20 left-[-5%] text-background">
+  <div class="h-[50px] sm:h-[60px] md:h-[70px] w-[110%] absolute top-20 left-[-5%] text-background crossed-slider">
     <div class="absolute w-max h-full uppercase">
       <div
         class="w-full h-full flex gap-x-4 sm:gap-x-6 md:gap-x-[30px] items-center"
@@ -44,6 +44,7 @@
     transform: translateX(0%);
   }
 }
+
 </style>
 
 <script setup>

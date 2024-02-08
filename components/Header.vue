@@ -1,5 +1,5 @@
 <template>
-  <nav class="fixed w-full z-50 inset-0 p-4">
+  <nav class="fixed w-full z-50 inset-0 p-4 h-max">
     <div class="lg:max-w-screen-xl mx-auto px-2 sm:px-4 md:px-0">
       <div class="flex flex-wrap items-center justify-between mx-auto px-4 sm:px-6 py-3 navbar bg-background">
         <NuxtLink to="/" class="flex items-center">

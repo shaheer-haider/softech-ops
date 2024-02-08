@@ -3,7 +3,7 @@
     <div class="max-w-[1200px] m-auto">
       <div class="flex justify-between items-end">
         <h2 class="text-5xl font-medium max-w-2xl leading-snug">
-          What our clients say about us
+          Client's Testimonials and Recommendations
         </h2>
         <a class="text-2xl underline" href="/projects">See All</a>
       </div>
@@ -15,8 +15,8 @@
             delay: 3000,
           }"
         >
-          <SwiperSlide v-for="x in 10" :key="x" class="p-1">
-            <TestimonialCard />
+          <SwiperSlide v-for="testimonial in testimonials" :key="x" class="p-1">
+            <TestimonialCard :testimonial="testimonial" />
           </SwiperSlide>
         </Swiper>
 
@@ -27,5 +27,5 @@
 </template>
 
 <script setup>
-import services from "@/assets/data/services.json";
+import testimonials from "@/assets/data/testimonials.json";
 </script>

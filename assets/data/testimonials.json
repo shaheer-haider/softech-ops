@@ -1,0 +1,37 @@
+[
+    {
+        "image": "https://avatars.githubusercontent.com/u/56408067?s=400&u=2da58ebce27c9e89d1c8e5110bfa51c6ab779b83&v=4",
+        "name": "Adrian",
+        "designation": "Adrian & Company",
+        "rating": 5,
+        "feedback": "Their services are good and they are very approachable. They have skills on what they're doing and I liked the output."
+    },
+    {
+        "image": "https://avatars.githubusercontent.com/u/56408067?s=400&u=2da58ebce27c9e89d1c8e5110bfa51c6ab779b83&v=4",
+        "name": "Adrian",
+        "designation": "Adrian & Company",
+        "rating": 5,
+        "feedback": "You will be surprised how this young man performs in extreme stressful environment where he meets challenging deadlines for completion of projects with smile. I have seen him dedicatedly working without having eye on clock 🕒."
+    },
+    {
+        "image": "https://avatars.githubusercontent.com/u/56408067?s=400&u=2da58ebce27c9e89d1c8e5110bfa51c6ab779b83&v=4",
+        "name": "Adam Felouss",
+        "designation": "Professor and Research Manager",
+        "rating": 5,
+        "feedback": "They have skilled developers and nice team to work with."
+    },
+    {
+        "image": "https://avatars.githubusercontent.com/u/56408067?s=400&u=2da58ebce27c9e89d1c8e5110bfa51c6ab779b83&v=4",
+        "name": "Mitesh Ahir",
+        "designation": "Entrepreneur",
+        "rating": 5,
+        "feedback": "Satisfied and really happy with quality of work done. Well document work with timely delivery of the project."
+    },
+    {
+        "image": "https://avatars.githubusercontent.com/u/56408067?s=400&u=2da58ebce27c9e89d1c8e5110bfa51c6ab779b83&v=4",
+        "name": "Jessie",
+        "designation": "Head of Operations",
+        "rating": 5,
+        "feedback": "Excellent work as our virutal assistants! Very fast! Will hire again in the future!"
+    }
+]
