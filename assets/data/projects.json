@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Al-Nafi Cloud Services",
+    "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
+    "image": "/images/projects/alnafi-cloud.png",
+    "categories": ["Web Development", "UI UX Design"]
+  },
+  {
+    "title": "Al-Nafi E-learning Platform",
+    "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
+    "image": "/images/projects/alnafi-cloud.png",
+    "categories": ["Web Development", "Cloud Computing"]
+  }
+]
