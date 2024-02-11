@@ -8,6 +8,7 @@
       interests are fortified against evolving cyber threats."
       titleOne="About"
       image="/images/about/boy.png"
+      :showPath="false"
     />
     <AboutSection />
   </div>

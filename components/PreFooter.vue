@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full max-w-screen-xl bg-backgroundLight mx-auto relative rounded-2xl py-14 mb-24"
+    class="w-full max-w-screen-xl bg-backgroundLight mx-auto relative rounded-2xl py-14 mb-24 border border-black"
   >
     <div class="btn-primary-rect"></div>
 
