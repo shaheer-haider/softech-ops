@@ -6,7 +6,9 @@
       :punchline="heroSectionData.punchline"
     />
     <HomeServicesCrossSlider />
-    <ServicesGridSection />
+    <div class="bg-backgroundLight py-10 my-20">
+      <ServicesGridSection />
+    </div>
     <!-- <ServicesBusinessProcessSection /> -->
   </div>
 </template>
@@ -43,7 +45,8 @@ const heroSectionData = {
     type: "p",
     contentArray: [
       {
-        text: "Our comprehensive suite of services is designed to empower your venture and drive success",
+        text:
+          "Our comprehensive suite of services is designed to empower your venture and drive success",
         type: "text",
         class: "",
       },

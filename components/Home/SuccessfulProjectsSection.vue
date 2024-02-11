@@ -8,7 +8,7 @@
         <a class="md:text-2xl text-lg underline" href="/projects">See All</a>
       </div>
       <div class="grid md:grid-cols-2 gap-10 mt-14">
-        <div v-for="(project, index) in projects" :key="index">
+        <div v-for="(project, index) in projects.slice(0, 4)" :key="index">
           <img :src="project.image" alt="project image" />
           <div class="pt-5 flex justify-between">
             <p class="font-semibold text-xl">{{ project.title }}</p>
@@ -24,6 +24,8 @@
           </div>
         </div>
       </div>
+
+      <ButtonPrimary button-text="Show All" url="/projects" class="mt-10 mx-auto block" />
     </div>
   </div>
 </template>

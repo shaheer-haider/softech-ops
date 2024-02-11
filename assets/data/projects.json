@@ -1,14 +1,198 @@
 [
   {
-    "title": "Al-Nafi Cloud Services",
+    "title": "AI Recruitment Assistant",
     "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
-    "image": "/images/projects/alnafi-cloud.png",
-    "categories": ["Web Development", "UI UX Design"]
+    "image": "/images/projects/ai-recruitment-assistant.png",
+    "categories": [
+      "Web Development",
+      "UI UX Design",
+      "Generative AI",
+      "GPT APIs"
+    ]
   },
   {
-    "title": "Al-Nafi E-learning Platform",
+    "title": "Cloud Workstation Platform",
     "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
-    "image": "/images/projects/alnafi-cloud.png",
-    "categories": ["Web Development", "Cloud Computing"]
+    "image": "/images/projects/cloud-workstation-platform.png",
+    "categories": [
+      "Web Development",
+      "UI UX Design"
+    ]
+  },
+  {
+    "title": "E-Learning Mobile App",
+    "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
+    "image": "/images/projects/e-learning-mobile.png",
+    "categories": [
+      "Web Development",
+      "UI UX Design"
+    ]
+  },
+  {
+    "title": "Job Search & Training Platform",
+    "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
+    "image": "/images/projects/job-search-platform.png",
+    "categories": [
+      "Web Development",
+      "UI UX Design"
+    ]
+  },
+  {
+    "title": "Customized ERP for E-Learning Company",
+    "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
+    "image": "/images/projects/erp-next-e-learning.png",
+    "categories": [
+      "Web Development",
+      "UI UX Design"
+    ]
+  },
+  {
+    "title": "Broucher Design",
+    "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
+    "image": "/images/projects/broucher-design.png",
+    "categories": [
+      "Web Development",
+      "UI UX Design"
+    ]
+  },
+  {
+    "title": "Tea Cafe Logo",
+    "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
+    "image": "/images/projects/cafe-logo.png",
+    "categories": [
+      "Web Development",
+      "UI UX Design"
+    ]
+  },
+  {
+    "title": "Affiliate Management System",
+    "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
+    "image": "/images/projects/affiliate-system.png",
+    "categories": [
+      "Web Development",
+      "UI UX Design"
+    ]
+  },
+
+  {
+    "title": "Car Selling Market",
+    "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
+    "image": "/images/projects/car-selling-market.png",
+    "categories": [
+      "Web Development",
+      "UI UX Design"
+    ]
+  },
+  {
+    "title": "CRM & Accounting Application",
+    "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
+    "image": "/images/projects/crm-application.png",
+    "categories": [
+      "Web Development",
+      "UI UX Design"
+    ]
+  },
+  {
+    "title": "E-Learning Progressive Web App",
+    "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
+    "image": "/images/projects/e-learning.png",
+    "categories": [
+      "Web Development",
+      "UI UX Design"
+    ]
+  },
+  {
+    "title": "Logo for a Fashion Brand",
+    "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
+    "image": "/images/projects/fashion-brand-logo.png",
+    "categories": [
+      "Web Development",
+      "UI UX Design"
+    ]
+  },
+  {
+    "title": "Football Tournament Poster Design",
+    "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
+    "image": "/images/projects/football-poster.png",
+    "categories": [
+      "Web Development",
+      "UI UX Design"
+    ]
+  },
+  {
+    "title": "Tea Cafe Logo Design",
+    "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
+    "image": "/images/projects/green-tea-logo.png",
+    "categories": [
+      "Web Development",
+      "UI UX Design"
+    ]
+  },
+  {
+    "title": "Hacking & Security Labs",
+    "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
+    "image": "/images/projects/hacking-security-labs.png",
+    "categories": [
+      "Web Development",
+      "UI UX Design"
+    ]
+  },
+  {
+    "title": "Marketing Email Templates",
+    "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
+    "image": "/images/projects/marketing-email.png",
+    "categories": [
+      "Web Development",
+      "UI UX Design"
+    ]
+  },
+
+  {
+    "title": "School Finder Application",
+    "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
+    "image": "/images/projects/school-finder-app.png",
+    "categories": [
+      "Web Development",
+      "UI UX Design"
+    ]
+  },
+  
+  {
+    "title": "Online Education Platform",
+    "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
+    "image": "/images/projects/online-education-platform.png",
+    "categories": [
+      "Web Development",
+      "UI UX Design"
+    ]
+  },
+
+
+  {
+    "title": "Payment Processing Application",
+    "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
+    "image": "/images/projects/payment-platform.png",
+    "categories": [
+      "Web Development",
+      "UI UX Design"
+    ]
+  },
+  {
+    "title": "Software House Website",
+    "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
+    "image": "/images/projects/vangops.png",
+    "categories": [
+      "Web Development",
+      "UI UX Design"
+    ]
+  },
+  {
+    "title": "Tea Cafe Logo Design",
+    "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
+    "image": "/images/projects/tea-cafe-logo.png",
+    "categories": [
+      "Web Development",
+      "UI UX Design"
+    ]
   }
 ]

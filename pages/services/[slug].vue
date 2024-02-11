@@ -37,16 +37,16 @@
             Our clients’ success stories speak for themselves
           </p>
         </div>
-        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 mt-0">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-x-10 gap-y-12 mt-0">
           <div v-for="(project, index) in projects" :key="index">
             <img :src="project.image" alt="project image" class="w-full" />
             <div class="pt-5 flex justify-between">
               <p class="font-semibold text-xl">{{ project.title }}</p>
-              <div class="space-x-2 flex flex-wrap">
+              <div class="gap-x-2 gap-y-1 flex flex-wrap">
                 <button
                   v-for="(category, index) in project.categories"
                   :key="index"
-                  class="bg-background text-xs text-foreground px-3 py-2 rounded-full border"
+                  class="bg-background text-xs text-foreground px-3 py-2 rounded-full border border-lightText"
                 >
                   {{ category }}
                 </button>

@@ -6,7 +6,9 @@
       :punchline="heroSectionData.punchline"
     />
     <HomeServicesCrossSlider />
-    <LazyProjectsTabContainer />
+    <div class="bg-backgroundLight md:py-20 py-10 my-20">
+      <LazyProjectsTabContainer />
+    </div>
   </div>
 </template>
 
@@ -33,7 +35,8 @@ const heroSectionData = {
     type: "p",
     contentArray: [
       {
-        text: "Our comprehensive suite of services is designed to empower your venture and drive success",
+        text:
+          "Our comprehensive suite of services is designed to empower your venture and drive success",
         type: "text",
         class: "",
       },

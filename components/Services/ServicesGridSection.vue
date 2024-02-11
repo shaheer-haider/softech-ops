@@ -5,15 +5,15 @@
         <NuxtLink
           v-for="(service, index) in services"
           :key="index"
-          class="w-full max-w-[400px] min-h-[290px] static-shadow-border px-7 py-8 block"
+          class="w-full max-w-[400px] min-h-[290px] static-shadow-border px-7 py-8 block cursor-pointer bg-background hover:bg-foregroundPrimary text-white"
           :class="index % 3 === 1 ? '-translate-y-12 ' : ''"
-          :to="'/services/' + service.slug"
         >
-          <img class="w-16 mb-5" src="@/assets/images/icons/frontend.png" />
+          <!-- :to="'/services/' + service.slug" -->
+          <img class="w-16 mb-5" :src="service.image" />
           <h4 class="text-foreground text-lg font-semibold capitalize mb-2">
             {{ service.name }}
           </h4>
-          <p class="text-lightText">
+          <p class="text-lightText ">
             {{ service.description }}
           </p>
         </NuxtLink>

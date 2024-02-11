@@ -17,6 +17,9 @@ body {
     @apply border border-foreground shadow-[4px_4px_0px] shadow-foreground rounded-2xl;
 
 }
+.static-shadow-border-light {
+    @apply border border-background shadow-[4px_4px_0px] shadow-background rounded-2xl;
+}
 
 .btn-primary {
     @apply rounded-2xl text-sm relative -translate-x-[2px] -translate-y-[2px] block w-max;

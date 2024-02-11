@@ -9,18 +9,18 @@
         <p class="text-lightText text-lg">
           Feel free to contact us any time. We will get back to you as soon as we can!
         </p>
-        <div class="space-y-4 text-sm pt-16">
+        <div class="space-y-4 pt-16">
           <div class="flex items-center gap-3">
-            <Icon name="ic:sharp-location-on" />
-            <p>Sindh, Karachi 74660, PK</p>
-          </div>
-          <div class="flex items-center gap-3">
-            <Icon name="f7:envelope-fill" />
+            <Icon name="f7:envelope-fill" class="text-lg" />
             <p>solutions@softechops.com</p>
           </div>
           <div class="flex items-center gap-3">
-            <Icon name="ic:round-phone" />
+            <Icon name="ic:round-phone" class="text-lg" />
             <p>+92 346 2615589</p>
+          </div>
+          <div class="flex items-center gap-3">
+            <Icon name="ic:sharp-location-on" class="text-lg" />
+            <p>Sindh, Karachi 74660, PK</p>
           </div>
         </div>
       </div>
