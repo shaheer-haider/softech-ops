@@ -7,8 +7,7 @@
         <h1 class="text-6xl font-semibold">Contacts</h1>
         <h4 class="text-2xl text-foregroundPrimary">Get in Touch</h4>
         <p class="text-lightText text-lg">
-          Feel free to contact us any time. We will get back to you as soon as
-          we can!
+          Feel free to contact us any time. We will get back to you as soon as we can!
         </p>
         <div class="space-y-4 text-sm pt-16">
           <div class="flex items-center gap-3">
@@ -49,11 +48,15 @@
               class="py-4 px-2 border rounded-lg border-black"
             />
           </div>
-          <Button
-            type="submit"
-            class="block text-white font-semibold px-3 py-2 sm:px-4 sm:py-3 md:px-6 md:py-4 bg-foregroundPrimary hover:bg-foregroundPrimaryHover rounded-2xl border-black border-2 transition-all"
-            >Submit</Button
-          >
+          <div class="btn-primary">
+            <div class="btn-primary-rect"></div>
+            <button
+              type="submit"
+              class="block !text-white font-semibold px-3 py-2 sm:px-4 sm:py-3 md:px-6 md:py-4 bg-foregroundPrimary hover:bg-foregroundPrimaryHover rounded-2xl border-black border-2 transition-all focus:translate-x-1 focus:translate-y-1"
+            >
+              Submit
+            </button>
+          </div>
         </form>
       </div>
     </div>

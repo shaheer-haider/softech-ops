@@ -27,7 +27,7 @@ body {
 }
 
 .tagline-chip {
-    @apply bg-backgroundLight text-foregroundPrimary py-2 px-3 rounded-lg;
+    @apply bg-backgroundLight text-foregroundPrimaryHover py-2 px-3 rounded-lg;
 }
 
 .tagline-chip-none {
@@ -39,4 +39,8 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.router-link-exact-active {
+    @apply text-foregroundPrimaryHover
 }
