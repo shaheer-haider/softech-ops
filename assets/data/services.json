@@ -1,29 +1,47 @@
 [
   {
-    "name": "Cloud and DevOps"
+    "name": "Cloud Computing",
+    "slug": "cloud-computing",
+    "description": "Managing applications and data in cloud environments for scalability, flexibility, and cost-effectiveness."
   },
   {
-    "name": "Cloud Computing"
+    "name": "DevOps",
+    "slug": "devops",
+    "description": "Integrating development and operations practices to automate and streamline the software development lifecycle for faster delivery and improved quality."
   },
   {
-    "name": "Frontend development"
+    "name": "Frontend Development",
+    "slug": "frontend-development",
+    "description": "Crafting user interfaces and experiences for web applications using HTML, CSS, and JavaScript."
   },
   {
-    "name": "UI/UX Design"
+    "name": "UI/UX Design",
+    "slug": "ui-ux-design",
+    "description": "Creating visually appealing and intuitive user interfaces to enhance user experience through thoughtful design and interaction."
   },
   {
-    "name": "Backend Services"
+    "name": "Backend & API Development",
+    "slug": "backend-development",
+    "description": "Building server-side logic and APIs to power web and mobile applications, facilitating smooth communication between frontend and databases."
   },
   {
-    "name": "Mobile Apps"
+    "name": "Mobile Apps",
+    "slug": "mobile-apps",
+    "description": "Developing applications for mobile devices, utilizing platforms like iOS and Android to deliver engaging and functional experiences."
   },
   {
-    "name": "Digital Marketing"
+    "name": "Digital Marketing",
+    "slug": "digital-marketing",
+    "description": "Employing online strategies such as social media marketing, email campaigns, SEO, and PPC advertising to promote products or services."
   },
   {
-    "name": "Product Management"
+    "name": "Virtual Assistants",
+    "slug": "virtual-assistants",
+    "description": "Experienced individuals who provide personalized assistance remotely, handling tasks ranging from administrative duties to customer support."
   },
   {
-    "name": "Business Branding"
+    "name": "Product Management",
+    "slug": "product-management",
+    "description": "Overseeing the development and launch of products from ideation to market release, including tasks such as market research and coordination between teams."
   }
 ]

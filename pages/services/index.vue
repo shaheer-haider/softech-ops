@@ -7,7 +7,7 @@
     />
     <HomeServicesCrossSlider />
     <ServicesGridSection />
-    <ServicesBusinessProcessSection />
+    <!-- <ServicesBusinessProcessSection /> -->
   </div>
 </template>
 

@@ -11,6 +11,7 @@
     >
       <div class="md:mb-20 space-y-4">
         <p
+          v-if="showPath"
           class="bg-backgroundLight w-fit p-2 lg:text-base text-sm font-semibold text-foregroundPrimaryHover"
         >
           Plan -> Design -> Develop -> Test -> Deliver
@@ -48,6 +49,10 @@ defineProps({
   image: {
     type: String,
     required: true,
+  },
+  showPath: {
+    type: Boolean,
+    default: true,
   },
 });
 </script>

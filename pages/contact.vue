@@ -12,15 +12,15 @@
         <div class="space-y-4 text-sm pt-16">
           <div class="flex items-center gap-3">
             <Icon name="ic:sharp-location-on" />
-            <p>itelligy – dal igitexpertsEtzmattenstr. 4079112</p>
+            <p>Sindh, Karachi 74660, PK</p>
           </div>
           <div class="flex items-center gap-3">
             <Icon name="f7:envelope-fill" />
-            <p>FreiburgGermanyhello@itelligy.com</p>
+            <p>solutions@softechops.com</p>
           </div>
           <div class="flex items-center gap-3">
             <Icon name="ic:round-phone" />
-            <p>+49 7664-4069752</p>
+            <p>+92 346 2615589</p>
           </div>
         </div>
       </div>
@@ -108,7 +108,13 @@ const submitForm = async () => {
       message: inputData.value[4].value,
     },
   });
-
-  console.log(responseData.value);
+  inputData.value[0].value = ""
+  inputData.value[1].value = ""
+  inputData.value[2].value = ""
+  inputData.value[3].value = ""
+  inputData.value[4].value = ""
+  if (responseData.value?.success) {
+    alert("Form Submitted Successfully, we'll contact you soon");
+  }
 };
 </script>

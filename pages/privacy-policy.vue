@@ -4,7 +4,8 @@
       titleOne="Privacy"
       titleTwo="Policy"
       image="/images/about/pnp.png"
-      paragraph="Lorem ipsum dolor sit amet consectetur. Lacinia neque condimentum diam nisi id nunc curabitur arcu id. Ullamcorper eget amet nisl risus nisl. Bibendum ac sollicitudin interdum curabitur ullamcorper. Sagittis dui enim porta auctor adipiscing velit et bibendum sodales."
+      paragraph=""
+      :showPath="false"
     />
     <div class="space-y-10 pb-16 px-5">
       <TermAndConditionCard
@@ -21,17 +22,17 @@ const privacyPolicy = [
   {
     question: "Information We Collect",
     answer:
-      "Personal Information: We may collect personal information, including but not limited to, your name, email address, and contact details when you voluntarily provide them to us through forms on the Site. Usage Information: We collect information about your interactions with the Site, such as the pages you visit and the actions you take.",
+      "Personal Information: We may collect personal information, including but not limited to, your name, email address, and contact details when you voluntarily provide them to us through forms on the Site.",
   },
   {
     question: "How We Use Your Information",
     answer:
-      "We may use your information for the following purposes To provide and maintain the Site. To improve user experience and customer service. To send periodic emails regarding updates, promotions, and other relevant information.",
+      "We may use your information to reach out to you to discuss and schedule a meeting for you. Your information will stay secure and not accessible publicly.",
   },
   {
     question: "Information Sharing",
     answer:
-      "We do not sell, trade, or otherwise transfer your personal information to outside parties. This does not include trusted third parties who assist us in operating our website, conducting our business, or servicing you, as long as those parties agree to keep this information confidential.",
+      "We do not sell, trade, or otherwise transfer your personal information to outside parties.",
   },
   {
     question: "Cookies and Tracking Technologies",
@@ -51,7 +52,7 @@ const privacyPolicy = [
   {
     question: "Your Choices",
     answer:
-      "You can choose not to provide personal information, but this may limit your ability to use certain features of the Site.",
+      "You can choose not to provide personal information and contact our team directly. For more information.",
   },
   {
     question: "Updates to this Privacy Notice",

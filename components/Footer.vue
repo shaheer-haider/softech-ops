@@ -3,14 +3,14 @@
     <div class="flex justify-between pt-10 pb-6 max-w-screen-2xl m-auto">
       <img src="@/assets/images/branding-dark.png" />
       <div class="flex gap-10">
-        <button class="font-bold">
+        <a href="https://www.linkedin.com/company/softech-ops/" target="_" class="font-bold hover:text-foregroundPrimaryHover">
           <span>LINKEDIN</span>
           <Icon class="ml-1 text-2xl" name="material-symbols:arrow-outward-rounded" />
-        </button>
-        <button class="font-bold">
+        </a>
+        <a href="https://www.upwork.com/agencies/softechops/" target="_" class="font-bold hover:text-foregroundPrimaryHover">
           <span>UPWORK</span>
           <Icon class="ml-1 text-2xl" name="material-symbols:arrow-outward-rounded" />
-        </button>
+        </a>
       </div>
     </div>
     <div class="mb-40">
@@ -32,16 +32,13 @@
       </div>
       <div class="flex items-center gap-x-2">
         <Icon name="uiw:mail" />
-        <span>contact@softechops.com</span>
+        <span>solutions@softechops.com</span>
       </div>
       <div class="flex items-center gap-x-2">
         <Icon name="material-symbols:call" />
-        <span>contact@softechops.com</span>
+        <span>+92 346 2615589</span>
       </div>
     </div>
   </footer>
 </template>
 
-<script setup>
-import services from "@/assets/data/services.json";
-</script>

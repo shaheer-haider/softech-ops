@@ -8,7 +8,7 @@
     />
 
     <div
-      class="max-w-7xl px-5 mx-auto pb-24 pt-16 grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-8"
+      class="max-w-7xl px-5 mx-auto pt-16 grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-8 pb-20"
     >
       <div
         class="flex items-center gap-2 justify-center flex-col text-center"
@@ -25,36 +25,38 @@
       </div>
     </div>
 
-    <div class="max-w-7xl px-5 mx-auto pb-20 space-y-12">
-      <div class="max-w-xl space-y-3 mx-auto text-center">
-        <h3 class="text-4xl max-w-sm mx-auto font-semibold">
-          Mobile Apps Development
-          <span class="text-foregroundPrimary">Projects</span>
-        </h3>
-        <p>
-          See how we help shape new concepts and reimagine existing products.
-          Our clients’ success stories speak for themselves
-        </p>
-      </div>
-      <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 mt-0">
-        <div v-for="(project, index) in projects" :key="index">
-          <img :src="project.image" alt="project image" class="w-full" />
-          <div class="pt-5 flex justify-between">
-            <p class="font-semibold text-xl">{{ project.title }}</p>
-            <div class="space-x-2 flex flex-wrap">
-              <button
-                v-for="(category, index) in project.categories"
-                :key="index"
-                class="bg-background text-xs text-foreground px-3 py-2 rounded-full border"
-              >
-                {{ category }}
-              </button>
+    <div class="bg-backgroundLight py-24">
+      <div class="max-w-7xl px-5 mx-auto space-y-12">
+        <div class="max-w-xl space-y-3 mx-auto text-center">
+          <h3 class="text-4xl max-w-sm mx-auto font-semibold">
+            Mobile Apps Development
+            <span class="text-foregroundPrimary">Projects</span>
+          </h3>
+          <p>
+            See how we help shape new concepts and reimagine existing products.
+            Our clients’ success stories speak for themselves
+          </p>
+        </div>
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 mt-0">
+          <div v-for="(project, index) in projects" :key="index">
+            <img :src="project.image" alt="project image" class="w-full" />
+            <div class="pt-5 flex justify-between">
+              <p class="font-semibold text-xl">{{ project.title }}</p>
+              <div class="space-x-2 flex flex-wrap">
+                <button
+                  v-for="(category, index) in project.categories"
+                  :key="index"
+                  class="bg-background text-xs text-foreground px-3 py-2 rounded-full border"
+                >
+                  {{ category }}
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="bg-backgroundLight">
+    <div class="">
       <div class="max-w-7xl mx-auto py-20 space-y-12 px-5">
         <div class="max-w-xl space-y-3 mx-auto text-center">
           <h3 class="text-4xl max-w-lg mx-auto font-semibold">
@@ -88,7 +90,7 @@
         </div>
       </div>
     </div>
-    <div class="max-w-7xl mx-auto py-20 px-5 space-y-12">
+    <!-- <div class="max-w-7xl mx-auto py-20 px-5 space-y-12">
       <div class="max-w-xl space-y-3 mx-auto text-center">
         <h3 class="text-4xl max-w-xl mx-auto font-semibold">
           Read more on Our Blogs
@@ -114,7 +116,7 @@
           </h4>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

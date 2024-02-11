@@ -8,7 +8,7 @@ export default defineEventHandler(async (event) => {
       service: "gmail",
       auth: {
         user: "coder.shaheer@gmail.com",
-        pass: "password here",
+        pass: "rltu vmje kyio kedn",
       },
     });
 
@@ -23,17 +23,15 @@ export default defineEventHandler(async (event) => {
 
     const mailOptions = {
       from: "coder.shaheer@gmail.com",
-      to: body.email,
-      subject: body.first_name + ", Contact Form, Vanguard Ops",
+      to: "solutions@softechops.com",
+      subject: body.first_name + ", Contact Form, Softech Ops",
       text: mailContent,
     };
 
     const info = await transporter.sendMail(mailOptions);
-    console.log("Email sent:", info);
 
     return { success: true, message: info };
   } catch (error) {
-    console.log("Error sending", error);
     return { success: false, message: error };
   }
 });

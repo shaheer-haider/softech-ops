@@ -1,11 +1,15 @@
 <template>
   <div class="static-shadow-border sm:w-68 h-full rounded-2xl px-4 py-6 space-y-4">
-    <div class="flex gap-3 items-end">
+    <div class="flex gap-3">
       <img
-        class="w-9 h-9"
-        src="https://avatars.githubusercontent.com/u/56408067?s=400&u=2da58ebce27c9e89d1c8e5110bfa51c6ab779b83&v=4"
+        v-if="testimonial.image"
+        class="w-9 h-9 rounded-full"
+        :src="testimonial.image"
         alt=""
       />
+      <div v-else class="block">
+        <Icon class="w-9 h-9" name="carbon:user-avatar-filled-alt" />
+      </div>
       <p class="leading-4">
         <span class="text-lg font-semibold">{{ testimonial.name }}</span>
         <br />
