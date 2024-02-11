@@ -8,7 +8,6 @@
     <HomeServicesCrossSlider />
     <ServicesGridSection />
     <ServicesBusinessProcessSection />
-
   </div>
 </template>
 
@@ -44,8 +43,7 @@ const heroSectionData = {
     type: "p",
     contentArray: [
       {
-        text:
-          "Our comprehensive suite of services is designed to empower your venture and drive success",
+        text: "Our comprehensive suite of services is designed to empower your venture and drive success",
         type: "text",
         class: "",
       },
@@ -55,8 +53,7 @@ const heroSectionData = {
         class: "",
       },
       {
-        text:
-          "Schedule a call and explore how we can bring your vision to life",
+        text: "Schedule a call and explore how we can bring your vision to life",
         type: "text",
         class: "",
       },

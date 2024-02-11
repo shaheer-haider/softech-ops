@@ -9,12 +9,16 @@
         Let’s start building your business unique story together
       </h2>
       <p class="text-lightText">
-        Lorem Ipsum, sometimes referred to as 'lipsum', is the placeholder text used in
-        design when creating content. It helps designers plan out where the content will
-        sit, without needing to wait for the content to be w ritten and approved
+        Lorem Ipsum, sometimes referred to as 'lipsum', is the placeholder text
+        used in design when creating content. It helps designers plan out where
+        the content will sit, without needing to wait for the content to be w
+        ritten and approved
       </p>
       <ButtonPrimary class="mx-auto" />
     </div>
-    <img class="absolute bottom-0 right-0 opacity-80" src="@/assets/images/pre-footer-image.png" />
+    <img
+      class="absolute bottom-0 right-0 lg:w-52 md:w-36 w-24 opacity-80"
+      src="@/assets/images/pre-footer-image.png"
+    />
   </div>
 </template>
