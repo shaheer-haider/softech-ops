@@ -37,7 +37,7 @@
             },
           }"
         >
-          <SwiperSlide v-for="testimonial in testimonials" :key="x" class="p-1">
+          <SwiperSlide v-for="testimonial, index in testimonials" :key="index" class="p-1">
             <TestimonialCard :testimonial="testimonial" />
           </SwiperSlide>
         </Swiper>

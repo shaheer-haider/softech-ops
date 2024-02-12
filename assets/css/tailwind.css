@@ -30,7 +30,7 @@ body {
 }
 
 .tagline-chip {
-    @apply bg-backgroundLight text-foregroundPrimaryHover py-2 px-3 rounded-lg;
+    @apply bg-backgroundLight text-foregroundPrimaryHover rounded-lg;
 }
 
 .tagline-chip-none {

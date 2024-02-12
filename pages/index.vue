@@ -54,7 +54,7 @@ const heroSectionData = {
     contentArray: [
       {
         text:
-          "A team of experts who create full-spectrum solutions to help your businesses get started and grow. We provide excellence to solopreneurs, startups & established businesses with ideas",
+          "A team of experts who create full-spectrum solutions to help your businesses get started and grow. We provide excellence to solopreneurs, startups & established businesses.",
         type: "text",
         class: "",
       },

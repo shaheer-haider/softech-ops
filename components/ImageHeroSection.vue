@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-between w-full max-w-screen-xl mx-auto">
     <div class="space-y-9 pt-3 max-w-xl">
-      <span class="tagline-chip">{{ props.tagline }}</span>
+      <span class="tagline-chip py-2 px-3">{{ props.tagline }}</span>
       <DynamicText
         class="text-5xl leading-tight"
         :class="props.title.class"
