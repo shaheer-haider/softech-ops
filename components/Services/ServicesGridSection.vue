@@ -1,12 +1,12 @@
 <template>
-  <div class="mt-16 max-w-screen-xl m-auto">
-    <div class="py-20 relative">
-      <div class="grid grid-cols-3 gap-x-4 gap-y-12 justify-items-center w-full">
+  <div class="mt-16 max-w-screen-xl m-auto px-4">
+    <div class="pb-20 lg:pt-10 relative">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-12 justify-items-center w-full">
         <NuxtLink
           v-for="(service, index) in services"
           :key="index"
-          class="w-full max-w-[400px] min-h-[290px] static-shadow-border px-7 py-8 block cursor-pointer bg-background hover:bg-foregroundPrimary text-white"
-          :class="index % 3 === 1 ? '-translate-y-12 ' : ''"
+          class="w-full max-w-[400px] min-h-[290px] static-shadow-border px-4 sm:px-7 py-8 block cursor-pointer bg-background hover:bg-foregroundPrimary text-white"
+          :class="index % 3 === 1 ? 'lg:-translate-y-12 ' : ''"
         >
           <!-- :to="'/services/' + service.slug" -->
           <img class="w-16 mb-5" :src="service.image" />

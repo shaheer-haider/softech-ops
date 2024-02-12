@@ -15,8 +15,11 @@
     "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
     "image": "/images/projects/cloud-workstation-platform.png",
     "categories": [
+      "DevOps",
       "Web Development",
-      "UI UX Design"
+      "Cloud SDK",
+      "UI UX Design",
+      "Illustration Design"
     ]
   },
   {
@@ -24,8 +27,10 @@
     "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
     "image": "/images/projects/e-learning-mobile.png",
     "categories": [
-      "Web Development",
-      "UI UX Design"
+      "Mobile Apps Development",
+      "Flutter",
+      "UI UX Design",
+      "Illustration Design"
     ]
   },
   {
@@ -34,7 +39,9 @@
     "image": "/images/projects/job-search-platform.png",
     "categories": [
       "Web Development",
-      "UI UX Design"
+      "UI UX Design",
+      "Cloud Computing",
+      "Illustration Design"
     ]
   },
   {
@@ -42,8 +49,10 @@
     "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
     "image": "/images/projects/erp-next-e-learning.png",
     "categories": [
-      "Web Development",
-      "UI UX Design"
+      "ERP Development",
+      "CRM, HRMS and more",
+      "Project Management",
+      "ERP Next"
     ]
   },
   {
@@ -51,8 +60,9 @@
     "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
     "image": "/images/projects/broucher-design.png",
     "categories": [
-      "Web Development",
-      "UI UX Design"
+      "Graphics Design",
+      "Photoshop",
+      "Illustration Design"
     ]
   },
   {
@@ -60,8 +70,8 @@
     "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
     "image": "/images/projects/cafe-logo.png",
     "categories": [
-      "Web Development",
-      "UI UX Design"
+      "Graphics Design",
+      "Illustration Design"
     ]
   },
   {
@@ -69,8 +79,10 @@
     "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
     "image": "/images/projects/affiliate-system.png",
     "categories": [
+      "DevOps",
       "Web Development",
-      "UI UX Design"
+      "UI UX Design",
+      "Illustration Design"
     ]
   },
 
@@ -79,8 +91,10 @@
     "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
     "image": "/images/projects/car-selling-market.png",
     "categories": [
+      "Wordpress",
       "Web Development",
-      "UI UX Design"
+      "UI UX Design",
+      "Illustration Design"
     ]
   },
   {
@@ -88,6 +102,8 @@
     "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
     "image": "/images/projects/crm-application.png",
     "categories": [
+      "CRM Development",
+      "Accounting Application",
       "Web Development",
       "UI UX Design"
     ]
@@ -98,7 +114,10 @@
     "image": "/images/projects/e-learning.png",
     "categories": [
       "Web Development",
-      "UI UX Design"
+      "Cloud Computing",
+      "Microservices",
+      "UI UX Design",
+      "Illustration Design"
     ]
   },
   {
@@ -106,8 +125,9 @@
     "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
     "image": "/images/projects/fashion-brand-logo.png",
     "categories": [
-      "Web Development",
-      "UI UX Design"
+      "Graphics Design",
+      "Photoshop",
+      "Illustration Design"
     ]
   },
   {
@@ -115,8 +135,9 @@
     "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
     "image": "/images/projects/football-poster.png",
     "categories": [
-      "Web Development",
-      "UI UX Design"
+      "Graphics Design",
+      "Photoshop",
+      "Illustration Design"
     ]
   },
   {
@@ -124,8 +145,8 @@
     "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
     "image": "/images/projects/green-tea-logo.png",
     "categories": [
-      "Web Development",
-      "UI UX Design"
+      "Graphics Design",
+      "Illustration Design"
     ]
   },
   {
@@ -134,7 +155,10 @@
     "image": "/images/projects/hacking-security-labs.png",
     "categories": [
       "Web Development",
-      "UI UX Design"
+      "Cloud Computing",
+      "Microservices",
+      "Cyber Security",
+      "VPC Networking"
     ]
   },
   {
@@ -153,16 +177,19 @@
     "image": "/images/projects/school-finder-app.png",
     "categories": [
       "Web Development",
-      "UI UX Design"
+      "UI UX Design",
+      "Illustration Design"
     ]
   },
-  
+
   {
     "title": "Online Education Platform",
     "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
     "image": "/images/projects/online-education-platform.png",
     "categories": [
       "Web Development",
+      "Illustration Design",
+      "Cloud Computing",
       "UI UX Design"
     ]
   },
@@ -174,6 +201,10 @@
     "image": "/images/projects/payment-platform.png",
     "categories": [
       "Web Development",
+      "Cloud Computing",
+      "DevOps",
+      "Cyber Security",
+      "VPC Networking",
       "UI UX Design"
     ]
   },
@@ -183,7 +214,8 @@
     "image": "/images/projects/vangops.png",
     "categories": [
       "Web Development",
-      "UI UX Design"
+      "UI UX Design",
+      "Illustration Design"
     ]
   },
   {
@@ -191,8 +223,9 @@
     "description": "lorem Ips incorrectly formatted as HTML in the HTML document",
     "image": "/images/projects/tea-cafe-logo.png",
     "categories": [
-      "Web Development",
-      "UI UX Design"
+      "Graphics Design",
+      "Photoshop",
+      "Illustration Design"
     ]
   }
 ]

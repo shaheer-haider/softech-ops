@@ -2,7 +2,7 @@
   <div class="text-center space-y-6 md:space-y-8 max-w-[1060px] m-auto pt-3 px-2 sm:px-4">
     <span class="hidden sm:inline tagline-chip py-2 px-3">{{ props.tagline }}</span>
 
-    <div
+    <!-- <div
       class="flex sm:hidden justify-center max-w-lg px-6 mx-auto flex-wrap gap-y-2 gap-x-3 sm:tagline-chip"
     >
       <span
@@ -10,7 +10,7 @@
         class="block w-max m-auto tagline-chip py-1 px-2 text-sm sm:text-base"
         >{{ tag }}</span
       >
-    </div>
+    </div> -->
     <DynamicText
       class="px-4 text-4xl sm:text-6xl md:text-7xl lg:text-[70px] leading-tight"
       :class="props.title.class"

@@ -1,6 +1,6 @@
 <template>
   <nav class="fixed w-full max-w-[100vw] z-50 p-4">
-    <div class="lg:max-w-screen-xl mx-auto px-2 sm:px-4 md:px-0">
+    <div class="lg:max-w-screen-xl mx-auto sm:px-4 md:px-0">
       <div class="flex flex-wrap items-center justify-between mx-auto px-4 sm:px-6 py-3 navbar bg-background">
         <NuxtLink to="/" class="flex items-center">
           <img class="w-40 sm:w-auto" src="@/assets/images/branding.svg" :alt="siteName + ' Logo'" />

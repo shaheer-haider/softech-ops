@@ -6,7 +6,7 @@
       :punchline="heroSectionData.punchline"
     />
     <HomeServicesCrossSlider />
-    <div class="bg-backgroundLight md:py-20 py-10 my-20">
+    <div class="bg-foreground md:py-20 py-10 my-20">
       <LazyProjectsTabContainer />
     </div>
   </div>

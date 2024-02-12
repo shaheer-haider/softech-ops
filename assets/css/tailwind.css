@@ -19,7 +19,7 @@ body {
 
 }
 .static-shadow-border-light {
-    @apply border border-background shadow-[4px_4px_0px] shadow-background rounded-2xl;
+    @apply border border-black shadow-[4px_4px_0px] shadow-black rounded-2xl;
 }
 
 .btn-primary {
