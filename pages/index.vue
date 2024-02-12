@@ -1,12 +1,12 @@
 <template>
   <div>
     <CenteredHeroSection
-      class="mb-16"
+      class="md:mb-8 lg:mb-16"
       :tagline="heroSectionData.tagline"
       :title="heroSectionData.title"
       :punchline="heroSectionData.punchline"
     />
-    <HomeServicesCrossSlider />
+  <HomeServicesCrossSlider />
 
     <HomeServicesSliderSection />
 

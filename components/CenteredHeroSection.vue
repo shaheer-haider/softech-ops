@@ -3,7 +3,7 @@
     <span class="hidden sm:inline tagline-chip py-2 px-3">{{ props.tagline }}</span>
 
     <div
-      class="flex sm:hidden mx-4 justify-center flex-wrap gap-y-1 gap-x-3 sm:tagline-chip"
+      class="flex sm:hidden justify-center max-w-lg px-6 mx-auto flex-wrap gap-y-2 gap-x-3 sm:tagline-chip"
     >
       <span
         v-for="tag in props.tagline?.replaceAll('|', '-').split('-').reverse()"
@@ -12,7 +12,7 @@
       >
     </div>
     <DynamicText
-      class="px-4 text-3xl sm:text-6xl md:text-7xl lg:text-[70px] leading-tight"
+      class="px-4 text-4xl sm:text-6xl md:text-7xl lg:text-[70px] leading-tight"
       :class="props.title.class"
       :type="props.title.type"
       :content-array="props.title.contentArray"

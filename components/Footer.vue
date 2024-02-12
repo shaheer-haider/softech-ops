@@ -1,6 +1,6 @@
 <template>
   <footer class="w-full bg-foreground text-background relative">
-    <div class="flex justify-between pt-10 pb-6 max-w-screen-2xl m-auto">
+    <div class="flex justify-between items-end flex-wrap pt-4 md:pt-10 pb-6 px-4 gap-x-4 gap-y-4 max-w-screen-2xl m-auto">
       <img src="@/assets/images/branding-dark.png" />
       <div class="flex gap-10">
         <a href="https://www.linkedin.com/company/softech-ops/" target="_" class="font-bold hover:text-foregroundPrimaryHover">
@@ -13,11 +13,11 @@
         </a>
       </div>
     </div>
-    <div class="mb-40">
+    <!-- <div class="mb-40 overflow-hidden max-w-[100vw]">
       <HomeServicesCrossSlide direction="backward" class="bg-foregroundPrimary mt-7" />
-    </div>
+    </div> -->
 
-    <div class="flex flex-wrap max-w-screen-2xl m-auto px-2 gap-6 border-b pb-5">
+    <div class="flex flex-wrap max-w-screen-2xl m-auto px-4 gap-6 border-b pb-5">
       <NuxtLink class="uppercase" to="/terms-and-conditions">
         Terms and Conditions
       </NuxtLink>
@@ -25,7 +25,7 @@
         privacy policy
       </NuxtLink>
     </div>
-    <div class="flex justify-between max-w-screen-2xl m-auto px-2 gap-5 mt-5 pt-4 pb-6">
+    <div class="flex justify-between flex-wrap max-w-screen-2xl m-auto px-4 gap-5 mt-5 pt-4 pb-6">
       <div class="flex items-center gap-x-2">
         <Icon name="ph:map-pin-fill" />
         <span>Sindh, Karachi 74660, PK</span>
