@@ -5,7 +5,7 @@
     "image": "/images/projects/ai-recruitment-assistant.png",
     "categories": [
       "Web Development",
-      "UI UX Design",
+      "UI/UX Design",
       "Generative AI",
       "GPT APIs"
     ]
@@ -18,7 +18,7 @@
       "DevOps",
       "Web Development",
       "Cloud SDK",
-      "UI UX Design",
+      "UI/UX Design",
       "Illustration Design"
     ]
   },
@@ -29,7 +29,7 @@
     "categories": [
       "Mobile Apps Development",
       "Flutter",
-      "UI UX Design",
+      "UI/UX Design",
       "Illustration Design"
     ]
   },
@@ -39,7 +39,7 @@
     "image": "/images/projects/job-search-platform.png",
     "categories": [
       "Web Development",
-      "UI UX Design",
+      "UI/UX Design",
       "Cloud Computing",
       "Illustration Design"
     ]
@@ -50,7 +50,6 @@
     "image": "/images/projects/erp-next-e-learning.png",
     "categories": [
       "ERP Development",
-      "CRM, HRMS and more",
       "Project Management",
       "ERP Next"
     ]
@@ -81,7 +80,7 @@
     "categories": [
       "DevOps",
       "Web Development",
-      "UI UX Design",
+      "UI/UX Design",
       "Illustration Design"
     ]
   },
@@ -93,7 +92,7 @@
     "categories": [
       "Wordpress",
       "Web Development",
-      "UI UX Design",
+      "UI/UX Design",
       "Illustration Design"
     ]
   },
@@ -105,7 +104,7 @@
       "CRM Development",
       "Accounting Application",
       "Web Development",
-      "UI UX Design"
+      "UI/UX Design"
     ]
   },
   {
@@ -116,7 +115,7 @@
       "Web Development",
       "Cloud Computing",
       "Microservices",
-      "UI UX Design",
+      "UI/UX Design",
       "Illustration Design"
     ]
   },
@@ -167,7 +166,7 @@
     "image": "/images/projects/marketing-email.png",
     "categories": [
       "Web Development",
-      "UI UX Design"
+      "UI/UX Design"
     ]
   },
 
@@ -177,7 +176,7 @@
     "image": "/images/projects/school-finder-app.png",
     "categories": [
       "Web Development",
-      "UI UX Design",
+      "UI/UX Design",
       "Illustration Design"
     ]
   },
@@ -190,7 +189,7 @@
       "Web Development",
       "Illustration Design",
       "Cloud Computing",
-      "UI UX Design"
+      "UI/UX Design"
     ]
   },
 
@@ -205,7 +204,7 @@
       "DevOps",
       "Cyber Security",
       "VPC Networking",
-      "UI UX Design"
+      "UI/UX Design"
     ]
   },
   {
@@ -214,7 +213,7 @@
     "image": "/images/projects/vangops.png",
     "categories": [
       "Web Development",
-      "UI UX Design",
+      "UI/UX Design",
       "Illustration Design"
     ]
   },
