@@ -7,7 +7,20 @@
     <div class="px-4">
       <PreFooter />
     </div>
+
     <Footer />
+
+    <ClientOnly>
+      <noscript>
+        <img
+          height="1"
+          width="1"
+          style="display: none"
+          alt=""
+          src="https://px.ads.linkedin.com/collect/?pid=6710273&fmt=gif"
+        />
+      </noscript>
+    </ClientOnly>
   </div>
 </template>
 
