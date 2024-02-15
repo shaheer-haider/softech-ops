@@ -32,7 +32,8 @@
       </div>
       <div class="flex items-center gap-x-2">
         <Icon name="uiw:mail" />
-        <span>solutions@softechops.com</span>
+        <a href="mailto:solutions@softechops.com">solutions@softechops.com</a>
+
       </div>
       <div class="flex items-center gap-x-2">
         <Icon name="material-symbols:call" />
