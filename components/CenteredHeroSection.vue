@@ -25,7 +25,7 @@
     />
     <div class="px-4 mb-6 flex justify-center items-center gap-8 flex-wrap text-lg font-bold">
       <div class="flex items-center gap-2">
-        Rated 4.97/5
+        Rated 4.98/5
         <div class="mb-1">
           <Icon
             v-for="_ in 5"
