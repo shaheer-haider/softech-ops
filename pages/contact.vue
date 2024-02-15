@@ -16,11 +16,13 @@
           </div>
           <div class="flex items-center gap-3">
             <Icon name="ic:round-phone" class="text-lg" />
-            <p>+92 346 2615589</p>
+            <p>
+              <a href="tel:+13072185787"> +1 (307) 218-5787 </a>
+            </p>
           </div>
           <div class="flex items-center gap-3">
             <Icon name="ic:sharp-location-on" class="text-lg" />
-            <p>Sindh, Karachi 74660, PK</p>
+            <p>30 N Gould St 440767 Sheridan, WY 82801, USA</p>
           </div>
         </div>
       </div>
@@ -108,11 +110,11 @@ const submitForm = async () => {
       message: inputData.value[4].value,
     },
   });
-  inputData.value[0].value = ""
-  inputData.value[1].value = ""
-  inputData.value[2].value = ""
-  inputData.value[3].value = ""
-  inputData.value[4].value = ""
+  inputData.value[0].value = "";
+  inputData.value[1].value = "";
+  inputData.value[2].value = "";
+  inputData.value[3].value = "";
+  inputData.value[4].value = "";
   if (responseData.value?.success) {
     alert("Form Submitted Successfully, we'll contact you soon");
   }

@@ -28,7 +28,7 @@
     <div class="flex justify-between flex-wrap max-w-screen-2xl m-auto px-4 gap-5 mt-5 pt-4 pb-6">
       <div class="flex items-center gap-x-2">
         <Icon name="ph:map-pin-fill" />
-        <span>Sindh, Karachi 74660, PK</span>
+        <span>30 N Gould St 440767 Sheridan, WY 82801, USA</span>
       </div>
       <div class="flex items-center gap-x-2">
         <Icon name="uiw:mail" />
@@ -36,7 +36,7 @@
       </div>
       <div class="flex items-center gap-x-2">
         <Icon name="material-symbols:call" />
-        <span>+92 346 2615589</span>
+        <a href="tel:+13072185787">+1 (307) 218-5787</a>
       </div>
     </div>
   </footer>
