@@ -25,7 +25,7 @@
     />
     <div class="px-4 mb-6 flex justify-center items-center gap-8 flex-wrap text-lg font-bold">
       <div class="flex items-center gap-2">
-        Rated 4.98/5
+        Rated 5/5
         <div class="mb-1">
           <Icon
             v-for="_ in 5"
@@ -36,7 +36,7 @@
       </div>
       <div class="flex items-center gap-3">
         <Icon name="solar:sunrise-bold" class="text-amber-400 text-3xl" />
-        Rising Talent Award!
+        Top 10% Skill of Upwork!
       </div>
       <div><span class="text-xl">💯</span> &nbsp; Work Completion</div>
     </div>
